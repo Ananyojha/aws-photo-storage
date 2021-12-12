@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo su - 
+
 npm install axios
 npm install bcrypt
 npm install body-parser
