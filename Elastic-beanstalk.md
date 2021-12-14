@@ -1,0 +1,1 @@
+-[] Install express locally from [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-devenv.html#nodejs-devenv-express)
