@@ -1,1 +1,2 @@
 - [x] Install express locally from [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-devenv.html#nodejs-devenv-express)
+- [x] Add RDS Database to your elastic beanstalk environment [check now](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-nodejs.rds.html)
