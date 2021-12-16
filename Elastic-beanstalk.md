@@ -2,6 +2,7 @@
 - [x] Add RDS Database to your elastic beanstalk environment [check now](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-nodejs.rds.html)
 - [x] install dependencies
 ```bash
+npm i pg
 npm install -g express-generator
 express
 npm install
