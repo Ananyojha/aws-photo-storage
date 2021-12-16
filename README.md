@@ -1,4 +1,6 @@
 # aws-photo-storage
+#### elatic beanstalk [here](https://github.com/Ananyojha/aws-photo-storage/blob/master/Elastic-beanstalk.md)
+E
 
 ## Table of contents
 * [General info](#general-info)
