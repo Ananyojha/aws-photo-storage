@@ -1,6 +1,57 @@
 # aws-photo-storage
 #### elatic beanstalk [here](https://github.com/Ananyojha/aws-photo-storage/blob/master/Elastic-beanstalk.md)
-E
+
+### Nodejs on EC2
+
+## Code
+
+Install nodejs version 16
+
+```sh
+sudo yum install -y gcc-c++ make
+curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
+sudo yum install -y nodejs
+```
+
+Install git and pull the repo
+
+```sh
+sudo yum install -y git
+git clone https://github.com/sam-meech-ward-bci...
+```
+Create a service file
+
+```sh
+sudo vim /etc/systemd/system/NodeServer.service
+```
+
+```sh
+[Unit]
+Description=My Node Server
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/node /home/ec2-user/lotr/server.js
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=my-node-server
+User=ec2-user
+EnvironmentFile=/home/ec2-user/lotr/app.env
+
+[Install]
+WantedBy=multi-user.target
+```
+
+start the service
+
+```sh
+sudo systemctl enable NodeServer.service
+sudo systemctl start NodeServer.service
+```
+
+
 
 ## Table of contents
 * [General info](#general-info)
