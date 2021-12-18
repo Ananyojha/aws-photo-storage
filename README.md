@@ -3,6 +3,8 @@
 
 ### Nodejs on EC2
 
+**You can use this [code](https://hackernoon.com/tutorial-creating-and-managing-a-node-js-server-on-aws-part-1-d67367ac5171)
+
 ## Code
 
 Install nodejs version 16
